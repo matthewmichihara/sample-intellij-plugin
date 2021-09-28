@@ -1,0 +1,25 @@
+<idea-plugin>
+    <id>com.google.sample-intellij-plugin</id>
+    <name>Plugin display name here</name>
+    <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+    <description><![CDATA[
+    Enter short description for your plugin here.<br>
+    <em>most HTML tags may be used</em>
+    ]]></description>
+
+    <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+    <action id="com.google.HelloWorldAction" class="com.google.HelloWorldAction"
+        text="Hello World" description="hello world example">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+    </action>
+    </actions>
+</idea-plugin>
