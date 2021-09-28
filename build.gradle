@@ -34,4 +34,4 @@ test {
     useJUnitPlatform()
 }
 
-buildSearchableOptions.onlyIf { false }
+//buildSearchableOptions.onlyIf { false }
