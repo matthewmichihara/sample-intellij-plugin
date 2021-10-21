@@ -13,10 +13,16 @@ repositories {
 dependencies {
 }
 
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+tasks.withType(JavaCompile) { options.encoding = 'UTF-8' }
+
 // See https://github.com/JetBrains/gradle-intellij-plugin/
 intellij {
     type = 'IU'
     version = '2021.2.2'
+    updateSinceUntilBuild = false
+    downloadSources = true
 }
 
 patchPluginXml {
