@@ -13,10 +13,6 @@
     <depends>com.intellij.modules.platform</depends>
     <depends>org.jetbrains.plugins.yaml</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <fileType name="YAML" fileNames="Kptfile" language="yaml" />
-    </extensions>
-
     <actions>
     <action id="com.google.HelloWorldAction" class="com.google.HelloWorldAction"
         text="Hello World" description="hello world example">

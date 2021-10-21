@@ -17,8 +17,6 @@ dependencies {
 intellij {
     type = 'IU'
     version = '2021.2.2'
-    instrumentCode = false
-    plugins = ['yaml']
 }
 
 patchPluginXml {
